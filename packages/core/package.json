@@ -8,6 +8,9 @@
     "files": [
         "build"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "keywords": [
         "simpleping",
         "sendmessage"
@@ -27,5 +30,6 @@
     "devDependencies": {
         "@types/node": "^22.13.1",
         "typescript": "^5.7.3"
-    }
+    },
+    "gitHead": "1d22081ad81ffc17dc3b3fea2e8c481cda59cc05"
 }
