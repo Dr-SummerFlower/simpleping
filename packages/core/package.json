@@ -1,0 +1,31 @@
+{
+    "name": "@simpleping/core",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "description": "一个用来发送消息的包",
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "files": [
+        "build"
+    ],
+    "keywords": [
+        "simpleping",
+        "sendmessage"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
+        "directory": "packages/core"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=core"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.7.3"
+    }
+}

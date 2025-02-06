@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "removeComments": true,
+        "strict": true,
+        "incremental": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "strictBindCallApply": false,
+        "forceConsistentCasingInFileNames": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "paths": {
+            "simpleping/*": [
+                "packages/*/src"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "*.test.ts"
+    ],
+}

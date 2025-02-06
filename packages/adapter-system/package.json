@@ -1,0 +1,35 @@
+{
+    "name": "@simpleping/adapter-system",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "description": "simpleping的系统消息适配器",
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "files": [
+        "build"
+    ],
+    "keywords": [
+        "simpleping",
+        "adapter"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
+        "directory": "packages/adapter-system"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=adapter"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "node-notifier": "^10.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "@types/node-notifier": "^8.0.5",
+        "typescript": "^5.7.3"
+    }
+}

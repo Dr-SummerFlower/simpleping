@@ -1,0 +1,30 @@
+{
+    "name": "simpleping",
+    "private": true,
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.13.1",
+        "eslint": "^9.19.0",
+        "eslint-config-prettier": "^10.0.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "globals": "^15.14.0",
+        "lerna": "^8.1.9",
+        "prettier": "^3.4.2",
+        "typescript": "^5.7.3",
+        "typescript-eslint": "^8.23.0"
+    }
+}
