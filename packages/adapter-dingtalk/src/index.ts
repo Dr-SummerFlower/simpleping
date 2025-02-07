@@ -74,9 +74,15 @@ export class DingtalkAdapter extends Adapter {
                         'Content-Type': 'application/json',
                     },
                     data: {
-                        msgtype: 'text',
-                        text: {
-                            content: this.text(message),
+                        msgtype: 'markdown',
+                        markdown: {
+                            title: message.title,
+                            text:
+                                `#### ${message.level}:${message.title}\n` +
+                                `${message.content}\n` +
+                                message.image
+                                    ? `![](${message.image})`
+                                    : '',
                         },
                     },
                 });
@@ -93,15 +99,5 @@ export class DingtalkAdapter extends Adapter {
                 reject(e);
             }
         });
-    }
-    text(message: Message): string | undefined {
-        switch (message.level) {
-            case 'INFO':
-                return `## <font  color="#0095da">${message.level}</font>: ${message.title}\n#### ${message.content}`;
-            case 'WARNING':
-                return `## <font  color="#fd7e14">${message.level}</font>: ${message.title}\n#### ${message.content}`;
-            case 'ERROR':
-                return `## <font  color="#ff4444">${message.level}</font>: ${message.title}\n#### ${message.content}`;
-        }
     }
 }
