@@ -19,8 +19,6 @@ Simple Ping 是一个用来发送消息的npm包，灵感来自于server酱
 ## 安装
 本项目采用适配器的形式`@simpleping/core`负责处理输入输出，adapter负责处理消息的格式，你可以自己实现adapter，或者使用现成的adapter。
 
----
-
 npm
 ```
 npm install @simpleping/core
@@ -29,8 +27,6 @@ npm install @simpleping/core
 npm install @simpleping/adapter-*
 ```
 
----
-
 yarn
 ```
     yarn add @simpleping/core
@@ -38,8 +34,6 @@ yarn
 ```
     yarn add @simpleping/adapter-*
 ```
-
----
 
 ## 使用
 ```typescript

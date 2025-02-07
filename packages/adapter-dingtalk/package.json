@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "name": "@simpleping/adapter-dingtalk",
+    "version": "0.0.1",
+    "main": "build/index.js",
+    "description": "simpleping的系统消息适配器",
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "files": [
+        "build"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "simpleping",
+        "adapter-dingtalk"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
+        "directory": "packages/adapter-system"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=adapter"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "dingtalk-stream": "^2.1.4"
+    }
+}

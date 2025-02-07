@@ -8,9 +8,9 @@
  * 消息级别枚举
  */
 export enum MessageLevel {
-    INFO = 'info',
-    WARNING = 'warning',
-    ERROR = 'error',
+    INFO = 'INFO',
+    WARNING = 'WARNING',
+    ERROR = 'ERROR',
 }
 
 /**

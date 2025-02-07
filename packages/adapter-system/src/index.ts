@@ -25,7 +25,7 @@ export class NotifierAdapter extends Adapter {
                         title: `${message.level}: ${message.title}`,
                         message: message.content,
                         icon: message.image,
-                        sound: message.level === 'error',
+                        sound: message.level === 'ERROR',
                     },
                     (err: Error | null): void => {
                         if (err) {
