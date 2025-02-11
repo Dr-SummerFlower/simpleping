@@ -1,6 +1,6 @@
 {
     "name": "@simpleping/core",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "build/index.js",
     "description": "一个用来发送消息的包",
     "license": "MIT",

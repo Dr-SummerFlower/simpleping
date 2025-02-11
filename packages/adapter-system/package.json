@@ -1,6 +1,6 @@
 {
     "name": "@simpleping/adapter-system",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "main": "build/index.js",
     "description": "simpleping的系统消息适配器",
     "license": "MIT",

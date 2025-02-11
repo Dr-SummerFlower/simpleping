@@ -1,6 +1,6 @@
 {
     "name": "@simpleping/adapter-email",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "main": "build/index.js",
     "description": "simpleping的系统消息适配器",
     "license": "MIT",
