@@ -18,7 +18,7 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
-        "directory": "packages/adapter-system"
+        "directory": "packages/adapter-dingtalk"
     },
     "bugs": {
         "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=adapter"

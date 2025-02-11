@@ -1,0 +1,39 @@
+{
+    "name": "@simpleping/adapter-email",
+    "version": "0.0.0",
+    "main": "build/index.js",
+    "description": "simpleping的系统消息适配器",
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "files": [
+        "build"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "simpleping",
+        "adapter-email"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
+        "directory": "packages/adapter-email"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=adapter"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "art-template": "^4.13.2",
+        "nodemailer": "^6.10.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "@types/nodemailer": "^6.4.17",
+        "typescript": "^5.7.3"
+    }
+}

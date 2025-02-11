@@ -4,14 +4,19 @@
  * @time: 2025-02-06
  */
 
-import { Adapter, Message } from '@simpleping/core';
+import { Adapter, AdapterOptions, Message } from '@simpleping/core';
 import notifier from 'node-notifier';
 
-/**
- * 系统消息适配器
- */
+export interface SystemOptions extends AdapterOptions {}
+
 export class NotifierAdapter extends Adapter {
     public name = 'notifier';
+    private options: SystemOptions;
+
+    constructor(options: SystemOptions) {
+        super();
+        this.options = options;
+    }
 
     /**
      * 发送消息
