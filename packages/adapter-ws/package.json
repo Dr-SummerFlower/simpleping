@@ -1,0 +1,38 @@
+{
+    "name": "@simpleping/adapter-ws",
+    "version": "0.0.0",
+    "main": "build/index.js",
+    "description": "simpleping的ws连接适配器",
+    "license": "MIT",
+    "author": "Dr-SummerFlower <1721807170@qq.com>",
+    "files": [
+        "build"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "simpleping",
+        "adapter-ws"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dr-SummerFlower/simpleping.git",
+        "directory": "packages/adapter-ws"
+    },
+    "bugs": {
+        "url": "https://github.com/Dr-SummerFlower/simpleping/issues?labels=adapter"
+    },
+    "homepage": "https://github.com/Dr-SummerFlower/simpleping#readme",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@types/ws": "^8.18.0",
+        "ws": "^8.18.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.1",
+        "typescript": "^5.7.3"
+    }
+}
