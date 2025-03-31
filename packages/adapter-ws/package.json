@@ -1,6 +1,6 @@
 {
     "name": "@simpleping/adapter-ws",
-    "version": "0.0.0",
+    "version": "0.0.1-alpha.0",
     "main": "build/index.js",
     "description": "simpleping的ws连接适配器",
     "license": "MIT",
